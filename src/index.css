@@ -28,6 +28,7 @@ h1{
   display: flex;
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 input{
@@ -51,10 +52,10 @@ input{
 }
 .todo{
   position: relative;
-  margin-top: 1rem;
+  margin: 5px 4px 0px 0px;
   background-color: rgb(10, 2, 126);
   color: #fff;
-  padding: 1.5rem 3rem;
+  padding: 13px 15px;
   border-radius: 5px;
 }
 
@@ -70,4 +71,9 @@ input{
 .icon{
   cursor: pointer;
   font-size: 20px;
+}
+.list{
+  /* border: 10px solid red; */
+  overflow:scroll;
+  height: 500px;
 }

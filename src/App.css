@@ -3,6 +3,6 @@
   justify-content: center;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background: url(https://wallpapers.com/images/file/white-love-swan-couple-36qpdzqenr10aib8.jpg);
 }
